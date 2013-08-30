@@ -1,7 +1,13 @@
 package tuts;
 
+import java.awt.Rectangle;
+
 public class Test {
+	/**
+	 * @param args
+	 */
 	public static void main(String[] args){
-		System.out.println("TEST");
+		Rectangle rectangle = new Rectangle(50, 75);
+		System.out.println(rectangle.getWidth());
 	}
 }
